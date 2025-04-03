@@ -1,18 +1,23 @@
-## Getting Started
+# Sistema de Ingressos para Cinema
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Sobre o Projeto
+Este projeto implementa um sistema de ingressos para cinema utilizando herança em Java. Ele permite a comercialização de diferentes tipos de ingressos, como meia entrada e ingresso família, aplicando regras específicas de precificação.
 
-## Folder Structure
+## Funcionalidades
+O sistema permite:
 
-The workspace contains two folders by default, where:
+- **Criar ingressos comuns** 🎟️
+- **Criar ingressos de meia entrada** (com valor reduzido pela metade) 🎫
+- **Criar ingressos familiares** (com preço ajustado ao número de pessoas e desconto para grupos grandes) 👨‍👩‍👧‍👦
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Regras de Implementação
+- O ingresso comum possui um valor base, um nome de filme e a indicação de ser dublado ou legendado.
+- O ingresso de **meia entrada** tem o seu valor reduzido em **50%**.
+- O **ingresso família** multiplica o valor base pelo número de pessoas e aplica um **desconto de 5% para grupos maiores que 3 pessoas**.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Tecnologias Utilizadas
+- **Java**
+- **Programação Orientada a Objetos (POO)**
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Autor
+Desenvolvido por **Jorginho Vigas**.
